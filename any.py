@@ -2,6 +2,7 @@ import sqlite3
 conn=sqlite3.connect("inventory.db")
 cursor=conn.cursor()
 
+# Code for interacting with db
 # cursor.execute("SELECT * FROM products")
 # products = cursor.fetchall()
 
